@@ -25,7 +25,7 @@ def plot_graph(pca):
 def plot_pca_2d(pca_2d_data, target):
     print("Plotting PCA 2D data...")
     plt.figure(figsize=(8, 6))
-    plt.scatter(pca_2d_data[:, 0], pca_2d_data[:, 1], c=cancer.target, cmap='viridis', edgecolor='k', s=50)
+    plt.scatter(pca_2d_data[:, 0], pca_2d_data[:, 1], c=target, cmap='viridis', edgecolor='k', s=50) # Use 'cancer.target' to color the points
     plt.title('PCA 2D Projection of Breast Cancer Dataset') 
     plt.xlabel('Principal Component 1')
     plt.ylabel('Principal Component 2')
