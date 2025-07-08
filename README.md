@@ -34,7 +34,7 @@ pip install numpy matplotlib
 pip install scikit-learn
 ```
 
-Then, run the script with your dataset:
+Then, run the script:
 
 ```bash
 python pca_implementation.py
