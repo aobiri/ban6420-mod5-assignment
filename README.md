@@ -14,7 +14,6 @@ Principal Component Analysis (PCA) is a powerful technique for reducing dimensio
 
 ### Key Functions:
 - fit(data): Computes the principal components and the explained variance from the input data.
-- transform(data): Projects the input data onto the principal component space.
 - fit_transform(data): Combines the fit and transform operations for convenience.
 
 ### Usage:
@@ -61,7 +60,7 @@ python pca_implementation.py
     pca = PCA()
     pca_data = pca.fit_transform(scaled_data)
 ```
-4) Call this function to plot the explained variance ratio:
+4) Call this function to plot the explained variance ratio, and visually represent it:
     ```bash
         plot_graph(pca)
     ```
