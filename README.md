@@ -61,7 +61,10 @@ python pca_implementation.py
     pca = PCA()
     pca_data = pca.fit_transform(scaled_data)
 ```
-4) Call the plot_graph(pca) function to plot the explained variance ratio
+4) Call this function to plot the explained variance ratio:
+    ```bash
+        plot_graph(pca)
+    ```
 
 5) Call to the function below to function to reduce the dataset into 2 PCA components. This is to help focus on the essentials, and provides the following:
     - Simplification of the dataset by converting it into principal components — combinations of features that capture the most variance.
